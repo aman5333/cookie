@@ -1,0 +1,401 @@
+*{
+
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+}
+body{
+
+     /* background: rgb(238,203,214);
+     background: linear-gradient(90deg, rgba(238,203,214,1) 0%, rgba(216,217,195,1) 0%); */
+       background-color: #f5f5f5;
+}
+
+
+ #head{
+     
+     background-image: url("https://img.freepik.com/free-vector/cookies-banner-template_23-2148774300.jpg");
+     background-position: fixed;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-size: cover;
+     display: flex;
+     height: 811px;
+     text-align: center;
+    
+    
+ 
+     /* https://img.freepik.com/premium-photo/chocolate-chip-cookies-white-background_896558-2498.jpg */
+     
+ }
+
+ #head2{
+      
+      border: 2px solid  rgb(146, 5, 5);
+       border-radius: 10px;
+       height: 60px;
+       width: 80%;
+       padding-top: 15px;
+       margin-top: 35px;
+      margin-left: 10%;
+      display: flex;
+      justify-content: space-evenly;
+       
+ }
+
+ #cook{
+     
+    margin-left: 20px;
+    color: rgb(146, 5, 5);
+           
+ }
+
+ #home{
+     
+     color: rgb(146, 5, 5);
+     padding-left: 106px;
+     padding-left: 50px;
+     text-decoration: none;
+     font-size: larger;
+     
+     
+ }
+ 
+
+ #about{
+     color: rgb(138, 5, 5);
+     padding-left: 60px;
+     text-decoration: none;
+     font-size: larger;
+      
+ }
+
+ #contact{
+     color: rgb(170, 3, 3);
+     padding-left: 50px;
+     text-decoration: none;
+     font-size: larger;
+ 
+ }
+
+ #service{
+    color: rgb(170, 3, 3);
+    padding-left: 50px;
+     text-decoration: none;
+     font-size: larger;
+ 
+ }
+
+
+ #home:hover{
+
+      color: rgb(197, 8, 125);
+ }
+
+ 
+ #about:hover{
+
+    color: rgb(197, 8, 125);
+}
+
+
+#contact:hover{
+
+    color: rgb(197, 8, 125);
+}
+
+#service:hover{
+
+    color: rgb(197, 8, 125);
+}
+
+#text1{
+    font-size: 61px;
+    margin-left: 260px;
+    color: rgb(146, 5, 5);
+    margin-top: 15px;
+  
+}
+
+#head3{
+     
+
+     display: flex;
+     justify-content: space-evenly;
+    
+     
+}
+
+#box1{
+   
+    border: 2px solid rgb(240, 189, 189);
+    border-radius: 16px;
+    height: 224px;
+    width: 245px;
+    margin-left: 141px;
+    margin-top: 37px;
+  
+}
+
+#text7{
+
+    margin-left: 13px;
+    font-size: 19px; 
+    color: rgb(146, 5, 5);
+    margin-top: 4px; 
+}
+#text8{
+
+    margin-left: 39px;
+    font-size: 19px; 
+    color: rgb(146, 5, 5);
+    margin-top: 4px; 
+}
+
+#box2{
+   
+    border: 2px solid rgb(240, 189, 189);
+    border-radius: 16px;
+    height: 224px;
+    width: 245px;
+    margin-top: 37px;
+    margin-right: -10px;
+    
+
+ 
+}
+
+#box3{
+   
+    border: 2px solid rgb(240, 189, 189);
+    height: 224px;
+    border-radius: 16px;
+    width: 245px;
+    margin-top: 37px;
+ 
+
+   
+}
+
+#box4{
+   
+    border: 2px solid rgb(240, 189, 189);
+    height: 224px;
+    border-radius: 16px;
+    width: 245px;
+    margin-top: 37px;
+    margin-right: 40px;
+   
+
+}
+
+#img2{
+    border-radius: 13px;
+    width: 241px;
+    height: 220px;
+}
+
+#head4{
+
+     display: flex;
+     margin-top: 28px;
+     
+}
+
+#img3{
+
+    margin-left: -28px;
+    margin-top: 80px;
+    height: 535px;
+    width: 808px;
+}
+
+ #text3{
+
+    margin-top: 86px;
+    font-size: 69px;
+    font-style: italic;
+    color: rgb(146, 5, 5);
+
+}
+
+#head5{
+
+    display: unset;
+}
+
+#text4{
+
+    margin-top: 34px;
+    font-size: 56px;
+    color: rgb(179, 129, 131);  
+}
+
+#head7{
+
+    background-color: #e7b6b6;
+    margin-top: -33px;
+    height: 778px;
+    border-radius: 49px;
+    margin-left: 90px;
+    margin-right: 50px;
+
+
+}
+
+#text10{
+
+    margin-top: 55px;
+    font-size: 56px;
+    font-style: italic;
+    color: rgb(146, 5, 5);
+    margin-left: 765px;
+}
+
+
+footer {
+    background-color: #e7b6b6;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 304px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex-basis: 33.33%;
+    margin: 20px;
+  }
+  
+  h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  ul li a:hover {
+    color: #23527c;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+  }
+
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+
+    margin-left: 77px;
+}
+
+p{
+
+    margin-left: 79px;
+}
+
+#about1{
+    
+    margin-top: 20px;
+      
+}
+
+h5{
+    margin-left: 131px;
+    font-size: 47px;
+    color: rgb(146, 5, 5);
+}
+
+p{
+    margin-left: -1px;
+    font-size: 27px;
+    color: rgb(146, 5, 5);
+}
+
+h5 p :hover{
+
+     
+    color: rgb(197, 8, 125); 
+}
+
+#img00{
+    height: 136px;
+    width: 162px;
+    margin-top: 10px;
+    margin-left: 90px;
+
+}
+
+#textc{
+    color: rgb(146, 5, 5);
+    font-size: 31px;
+    margin-left: 40%;
+}
+
+#title2{
+
+    margin-left: 104px;
+}
+
+#wr{
+
+    margin-left: 85px;
+}
